@@ -28,3 +28,7 @@ pip install -U pip
 sudo apt-get update
 sudo apt-get upgrade
 
+#control screen brightness
+xrandr -q | grep " connected"
+xrandr --output VGA-0 --brightness 0.7
+
